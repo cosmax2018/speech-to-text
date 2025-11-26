@@ -11,7 +11,6 @@
 #
 
 import os,shutil,time,calendar
-from seleziona_file import seleziona
 from split_wav_audio import split_wav
 
 import speech_recognition as sr

@@ -1,6 +1,6 @@
 
 #
-# processa_files_audio.py : data una cartella processa i files audio presenti convertendoli in testo.
+# batch_conversion.py : data una cartella processa tutti i files audio presenti convertendoli in testo.
 #					  
 
 from elenca_files import elenca_files
@@ -20,7 +20,7 @@ def processa_files(percorso_cartella,lista_files_tipi):
             
             # converti in testo.
             converti_in_testo(file_audio,tipo)    
-            print(f'Coonvertito file audio: {file_audio} ({tipo})')
+            print(f'Convertito file audio: {file_audio} ({tipo})')
         
 if __name__ == "__main__":
 

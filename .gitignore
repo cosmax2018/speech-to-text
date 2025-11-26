@@ -1,0 +1,3 @@
+# cartelle da non importare in github
+__pycache__/
+bak/
