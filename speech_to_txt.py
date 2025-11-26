@@ -1,9 +1,14 @@
 
 #
-# speech_to_txt.py : trasforma il parlato registrato in un file audio .m4a / .mp3 / .3ga / .wav in file di testo.
+# speech_to_txt.py : trasforma il parlato registrato (.m4a/.mp3/.3ga/.wav) in file di testo.
 #
-#                     n.b.: installare ffmpeg da https://www.gyan.dev/ffmpeg/builds/
-
+#                     n.b.: installare :
+#
+#                               ffmpeg da https://www.gyan.dev/ffmpeg/builds/
+#                               pip install audioop-lts
+#                               pip install SpeechRecognition
+#
+#
 
 import os,shutil,time,calendar
 from seleziona_file import seleziona
